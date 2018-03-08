@@ -23,12 +23,11 @@ function search() {
           
       });
 
-      resetVideoHeight();
+      //resetVideoHeight();
   });
 
-  $(window).on("resize", resetVideoHeight);
+  //$(window).on("resize", resetVideoHeight);
 }
-
 
 function init() {
     gapi.client.setApiKey("AIzaSyCdlzjC5As_PAFvmFV_fv7BUGRxAMy8Sfc");
