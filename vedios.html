@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Videos App</title>
+    <link rel="stylesheet" href="../bootstrap/tether.min.css" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/myStyle.css" />
+    <link rel="stylesheet" href="../css/media-queries.css" />
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css" />
+</head>
+<body style="background-color: #008080; color: aliceblue">
+        <div class="row" style="padding-left:4%">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-12">
+                        <br />
+                        <h1 style="text-align: center">Videos App</h1>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <h2 id="current_user" class="pull-right"></h2>
+                            </div>
+                                <div class="col-md-2">
+                                    <div type="button" class="btn btn-primary" id="logout_btn"
+                                         style="background-color:#73C4AB;  margin-left:20%; color:black;">Logout</div>
+                                    <br />
+                                </div>
+                         </div> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="margin:0% 0% 0% 30%">
+                                <div id="buttons">
+                                    <label> <input id="query" value='cats' type="text" /><button id="search-button"  onclick="search()">Search</button></label>
+                                </div>
+                                <div id="results"></div>
+                            </div>
+                           
+                        </div>
+                    </div>
+        </div>
+
+
+    <script src="../scripts/public/jquery-3.2.1.min.js"></script>
+    <script src="../scripts/public/tether.min.js"></script>
+    <script src="../scripts/public/bootstrap.min.js"></script>
+    <script src="../scripts/vedios.js"></script>
+    <!--<script src="../scripts/public/auth.js"></script>-->
+    <script src="../scripts/public/search.js"></script>
+    <!--<script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>-->
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
+    <script src="../scripts/public/modernizr.js"></script>
+    <script src="../scripts/public/jquery-ui.js"></script>
+
+</body>
+</html>
